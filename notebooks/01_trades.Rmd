@@ -1,0 +1,28 @@
+---
+title: "01_trades"
+author: "Jolyon Faria"
+date: "05/04/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=FALSE}
+
+# TODO
+# 1. Plot current trades (distribution of values)
+# 2. Add configuration
+# 3. Add simple tests
+# 4. Plot historical volume
+# 5. Automate date
+
+```
+
+## Appendix
+
+```{r, include=FALSE}
+sessionInfo()
+```
+
