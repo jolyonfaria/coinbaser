@@ -19,6 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # 5. Automate date
 # 6. Document trades functions
 # 7. Change plots to ggplot
+# 8. Add code coverage
 
 ```
 
