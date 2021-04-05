@@ -21,6 +21,28 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
+```{r, include=FALSE}
+
+# Bitcoin distribution
+btc_trades <- get_trades_sample() 
+btc_trades_all <- combine_trades(btc_trades)
+plot_coin(btc_trades_all)
+pc_buy(btc_trades_all)
+median(btc_trades_all$value)
+
+```
+
+```{r, include=FALSE}
+
+# Algorand distribution
+btc_trades <- get_trades_sample(coin_pair = "ALGO-USD") 
+btc_trades_all <- combine_trades(btc_trades)
+plot_coin(btc_trades_all)
+pc_buy(btc_trades_all)
+median(btc_trades_all$value)
+
+```
+
 ## Appendix
 
 ```{r, include=FALSE}
