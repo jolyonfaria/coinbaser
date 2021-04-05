@@ -1,0 +1,14 @@
+Package: coinbaser
+Type: Package
+Title: Exploration of Coinbase data
+Version: 0.1.0
+Author: Jolyon Faria
+Maintainer: Jolyon Faria <jolyonfaria@gmail.com>
+Description: Access and exploration of data from Coinbase, a cryptocurrency exchange platform.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests:
+  lintr,
+  testthat
+RoxygenNote: 7.1.0
