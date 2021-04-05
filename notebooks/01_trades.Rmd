@@ -18,6 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # 4. Plot historical volume
 # 5. Automate date
 # 6. Document trades functions
+# 7. Change plots to ggplot
 
 ```
 
