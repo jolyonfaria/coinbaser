@@ -9,6 +9,9 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests:
+  dplyr,
+  jsonlite,
   lintr,
+  lubridate,
   testthat
 RoxygenNote: 7.1.0

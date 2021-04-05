@@ -14,9 +14,10 @@ knitr::opts_chunk$set(echo = TRUE)
 # TODO
 # 1. Plot current trades (distribution of values)
 # 2. Add configuration
-# 3. Add simple tests
+# 3. Add tests for trades functions
 # 4. Plot historical volume
 # 5. Automate date
+# 6. Document trades functions
 
 ```
 
