@@ -1,5 +1,5 @@
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.com/jolyonfaria/coinbaser.svg?branch=master)](https://travis-ci.com/jolyonfaria/coinbaser)
+[![Travis build status](https://travis-ci.com/jolyonfaria/coinbaser.svg?branch=main)](https://travis-ci.com/jolyonfaria/coinbaser)
 <!-- badges: end -->
 
 # coinbaser
