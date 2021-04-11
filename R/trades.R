@@ -57,14 +57,14 @@ combine_trades <- function(trades) {
 #' @return None
 #' @export
 plot_coin <- function(x) {
-  opar <- par(mfrow = c(1, 3))
-  hist(x$value, breaks = 50)
-  plot(
+  opar <- graphics::par(mfrow = c(1, 3))
+  graphics::hist(x$value, breaks = 50)
+  graphics::plot(
     x$time,
     x$value * ifelse(x$side == "buy", 1, -1)
   )
-  plot(x$time, x$price, "type" = "l")
-  par(opar)
+  graphics::plot(x$time, x$price, "type" = "l")
+  graphics::par(opar)
 }
 
 #' Percent buyers

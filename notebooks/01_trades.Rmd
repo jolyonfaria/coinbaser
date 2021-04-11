@@ -20,6 +20,13 @@ knitr::opts_chunk$set(echo = TRUE)
 # 6. Document trades functions
 # 7. Change plots to ggplot
 # 8. Add code coverage
+# 9. Check API using httptest
+```
+
+```{r, include=FALSE}
+
+# Check API
+url_res <- check_cb_api(coinbase_url = "https://api.pro.coinbase.com/products")
 
 ```
 

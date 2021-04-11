@@ -2,7 +2,7 @@
 % Please edit documentation in R/trades.R
 \name{plot_coin}
 \alias{plot_coin}
-\title{PLot trades}
+\title{Plot trades}
 \usage{
 plot_coin(x)
 }
